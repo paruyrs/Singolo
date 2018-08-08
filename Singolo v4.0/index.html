@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>Singolo</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+		<link rel="stylesheet" href="./css/normalize.css" type="text/css"/>
+		<link rel="stylesheet" href="./css/style.css" type="text/css"/>	
+	</head>
+<body>
+	<div class="header-slider" id="home" onselectstart="return false">
+		<div class="header-wraper" id="fixedNavBar">
+			<ul class="toggle-menu" id="toggle-menu">
+				<a id="homeBtn" class="easeOutBounce easeOutBounceMobile" href="#home"><li> HOME </li></a>
+				<a id="servicesBtn" class="easeOutBounce easeOutBounceMobile" href="#services"><li> SERVICES </li></a>
+				<a id="portfolioBtn" class="easeOutBounce easeOutBounceMobile" href="#portfolio"><li> PORTFOLIO </li></a>
+				<a id="aboutBtn" class="easeOutBounce easeOutBounceMobile"  href="#about"> <li>ABOUT </li></a>
+				<a id="GetAquoteBtn" class="easeOutBounce easeOutBounceMobile" href="#contact"><li> CONTACT </li></a>
+			</ul>
+			<div class="header-outer">
+				<header>
+					<div class="header-left">
+						<a id="homeBtn" class="easeInBounce easeInBounceMobile" href="#home">
+							<img src="./img/singolo_logo.png" class="logo" alt="Singolo"/>
+						</a>	
+					</div>
+					<div class="header-right">
+						<ul>
+							<li class="first-li"><a id="homeBtn" href="#home" class="menu-active easeInBounce easeInBounceMobile"> HOME </a></li>
+							<li><a id="servicesBtn" class="easeOutElastic easeOutElasticMobile" href="#services"> SERVICES </a></li>
+							<li><a id="portfolioBtn" class="easeOutElastic easeOutElasticMobile" href="#portfolio"> PORTFOLIO </a></li>
+							<li><a id="aboutBtn" class="easeOutElastic easeOutElasticMobile" href="#about"> ABOUT </a></li>
+							<li><a id="GetAquoteBtn" class="easeOutBounce easeOutBounceMobile" href="#GetAquote"> CONTACT </a></li>
+						</ul>
+						 <div class="pull" id="pull"><div class="pull-active"></div></div>  
+					</div>
+					<div class="clear"></div>
+				</header>
+			</div>	
+		</div>
+		<div class="content">		
+				<div class="outer-slider">					
+					<div class="slider">
+						<div class="inner-slider">
+							<figure id="slider" onclick="next()">
+								<img id="1" class="image-of-slider" src="./img/iphones.png"  alt="iPhone" />
+								<img id="2" class="image-of-slider" src="./img/iphones_gold.png"  alt="iPhone" />
+								<img id="3" class="image-of-slider" src="./img/iphones_green.png"  alt="iPhone" />
+								<img id="4" class="image-of-slider" src="./img/iphones_orange.png"  alt="iPhone" />
+								<img id="5" class="image-of-slider" src="./img/iphones_green.png"  alt="iPhone" />
+							</figure>
+						</div>
+						<div class="left-arrow arrows" onclick="prev();"><div class="left-arrov-active arrows"></div></div>
+						<div class="right-arrow arrows" onclick="next();"><div class="right-arrov-active arrows"></div></div>
+					</div>						
+				</div>
+			</div>					
+	</div>
+	
+	<div id="services">
+		<div class="content">
+			<h2>Our Services</h2>
+			<div class="intro">
+				Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, 
+				non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. 
+				Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+			</div>
+			<div>
+				<div class="block_box">
+					<a href="#"> <img src="./img/pen.png" alt="pen_icon" class="icon"/> </a>
+					<div class="box"> 
+						<a href="#" class="text"><h3>Custom Design</h3></a>
+						<span>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</span>
+					</div>	
+				</div>
+				<div class="block_box">
+					<a href="#"> <img src="./img/bulb.png" alt="bulb_icon" class="icon"/> </a>
+					<div class="box">
+						<a href="#" class="text"><h3>Inovative Ideas</h3></a>
+						<span>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</span>
+					</div>
+				</div>
+				<div class="block_box">
+					<a href="#"> <img src="./img/heart.png" alt="heart_icon" class="icon"/> </a>
+					<div class="box">
+						<a href="#" class="text"><h3>Love Is The Answer</h3></a>
+						<span>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</span>
+					</div>
+				</div>
+				<div class="block_box">
+					<a href="#"> <img src="./img/phone.png" alt="phone_icon" class="icon"/> </a>
+					<div class="box">
+						<a href="#" class="text"><h3>Responsive Layout</h3></a>
+						<span>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</span>
+					</div>						
+				</div>
+				<div class="block_box">
+					<a href="#"> <img src="./img/bubble.png" alt="bubble_icon" class="icon"/> </a>
+					<div class="box" >
+						<a href="#" class="text"><h3>24 / 7 Support</h3></a>
+						<span>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</span>
+					</div>
+				</div>
+				<div class="block_box">
+					<a href="#"> <img src="./img/star.png" alt="star_icon" class="icon"/> </a>
+					<div class="box">
+						<a href="#" class="text"><h3>Feel Like A Star</h3></a>
+						<span>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="portfolio"	>
+			<div class="portfolio_cont">
+				<h1 class="from-top">portfolio</h1>
+				<p class="from-top">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
+				<ul class="portfolio_menu from-top">
+					<li class="first"><a href="#">All</a></li>
+					<li><a href="#">Web Design</a></li>
+					<li><a href ="#">Graphic Design</a></li>
+					<li><a href="#">Artwork</a></li>
+				</ul>
+				<div class="clear"></div>
+				<div class="imagelist">
+					<a href="#" class="from-left1"><img src="img/icon1.png" alt="icon"></a>
+					<a href="#" class="from-left1"><img src="img/Project.png"  alt="icon"></a>
+					<a href="#" class="from-right1"><img src="img/icon4.png" alt="icon"></a>
+					<a href="#" class="from-right1"><img src="img/Project2.png"  alt="icon"></a>
+					<a href="#" class="from-left1"><img src="img/Project3.png" alt="icon"></a>
+					<a href="#" class="fade"><img src="img/Project4.png"  alt="icon"></a>
+					<a href="#" class="fade"><img src="img/icon3.png" alt="icon"></a>
+					<a href="#" class="from-right1"><img src="img/icon2.png" alt="icon"></a>
+					<a href="#" class="from-left1"><img src="img/Project5.png" alt="icon"></a>
+					<a href="#" class="from-left1"><img src="img/Project6.png"  alt="icon"></a>
+					<a href="#" class="from-right1"><img src="img/Project7.png" alt="icon"></a>
+					<a href="#" class="from-right1"><img src="img/Project8.png"  alt="icon"></a>
+				</div>
+			</div>
+		</div>
+	<div id="about">
+		<div id="about_cont">
+		<div class="about">
+			<h1> About Us </h1>
+			<p> Furse dapibus,tellus ac cursus commoro,tortor mauris.Duis mollis,non commodo luctre nisi erat porttitor </p><br>
+			<p>ligula,eget lacinia odio sem nec elit.fusce dapibus tellus as cursus commodo tortor mauris condifimentum nibh.</p>
+		</div>
+			<ul>
+				<li class="from-left">
+				   <img src="./img/photo_1.png" width= "303" height="303" alt="photo_1">
+				   <h4> Adam Jenson</h4> 
+				   <p> Quisque luctus, quam eget molestiecommole lacus purus cursus purus,net retur tellus dolor id lorem.</p>
+				     <div class ="logo1">
+						  <a href="#"><img src="./img/facebook_logo.png"  width= "32" height="32" alt="facebook_logo"></a>
+						  <a href="#"><img src="./img/google_logo.png"  width= "32" height="32" alt="google_logo"></a>
+						  <a href="#"><img src="./img/twitter_logo.png"  width= "32" height="32" alt="twitter_logo"></a>
+						  <a href="#"><img src="./img/linkdn_logo.png" width= "32" height="32" alt="linkdn_logo"></a>
+				     </div>
+				</li>
+
+			 <li class="from-bottom">
+				   <img src="./img/photo_2.png" width= "303" height="303" alt="photo_2">
+				   <h4> Desmond Miles</h4> 
+				   <p> Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+				     <div class ="logo1">
+						  <a href="#"><img src="./img/facebook_logo.png"  width= "32" height="32" alt="facebook_logo"></a>
+						  <a href="#"><img src="./img/google_logo.png"  width= "32" height="32" alt="google_logo"></a>
+						  <a href="#"><img src="./img/twitter_logo.png"  width= "32" height="32" alt="twitter_logo"></a>
+						  <a href="#"><img src="./img/linkdn_logo.png" width= "32" height="32" alt="linkdn_logo"></a>
+				     </div>
+				</li>
+
+
+			<li class="from-right">
+				   <img src="./img/photo_3.png" width= "303" height="303" alt="photo_3">
+				   <h4> Scolara Visari</h4> 
+				   <p> Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+				     <div class ="logo1">
+						   <a href="#"><img src="./img/facebook_logo.png"  width= "32" height="32" alt="facebook_logo"></a>
+						  <a href="#"><img src="./img/google_logo.png"  width= "32" height="32" alt="google_logo"></a>
+						  <a href="#"><img src="./img/twitter_logo.png"  width= "32" height="32" alt="twitter_logo"></a>
+						  <a href="#"><img src="./img/linkdn_logo.png" width= "32" height="32" alt="linkdn_logo"></a>
+
+				     </div>
+				</li>
+			</ul>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="GetAquote">
+		<div class="content">
+			<h2> Get a Quote </h2>
+			<div class="intro">
+				Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+			</div>
+			<div id="formDiv">
+				<form>
+					<input type="text" placeholder="Name (Required)" class="form_style"/>
+					<input type="email" placeholder="Email (Required)" class="form_style"/>
+					<input type="text" placeholder="Subject" class="form_style"/>
+					<textarea placeholder="Describe you project in detail" class="form_style"></textarea>
+					<input type="submit" class="form_style" value="Submit"/>
+				</form>
+			</div>
+			<div id="additionalInfo">
+				<h3>Contact Information</h3>
+				<div class="contact">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </div>	
+			    <div class="cont_info"><img src="img/location1.png" class="contact_icons" alt="location_icon"/> <span>address</span> </div>
+			    <div class="cont_info"><img src="img/phone1.png" class="contact_icons" alt="phone_icon"/> <span>phone</span></div>
+			    <div class="cont_info"><img src="img/email1.png" class="contact_icons" alt="email_icon"/> <span>info@singolo.com</span></div>  
+			</div>
+		</div>
+	</div>
+	<footer>
+ 		<div class="f_content">
+ 			
+ 			<div id="CopyR">Copyright (c) 2014</div>
+ 			
+ 			<div id="socnets">
+ 				
+				<a href="https://www.facebook.com" target="_blank"> <img src="./img/facebook_logo.png" 	alt="facebook_icon" 	class="icon"/> </a>
+ 				<a href="https://plus.google.com" target="_blank">  <img src="./img/google_logo.png" 	alt="googleplus_icon" 	class="icon"/> </a>
+				<a href="https://twitter.com" target="_blank"> 		<img src="./img/twitter_logo.png" 	alt="twitter_icon" 		class="icon"/> </a>
+				<a href="http://linkdn.com" target="_blank"> 		<img src="./img/linkdn_logo.png" 	alt="linkdn_icon" 		class="icon"/> </a>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./js/Jquery/jquery-1.11.1.js"></script>
+	<script src="./js/Jquery/Plugins/skrollr.js"></script>
+	<script src="./js/Jquery/Plugins/jquery.stellar.js"></script>
+	<script src="./js/Jquery/Plugins/jquery.superscrollorama.js"></script>
+	<script src="./js/main.js"></script>
+
+	<script src="./js/Jquery/Plugins/jquery.easing.1.3.js"></script>
+	<script src="./js/slider.js"></script>
+
+	<script type="text/javascript" src="./js/Jquery/Plugins/scrolld.js"></script>
+	<script type="text/javascript">
+		$("[id*='Btn']").stop(true).on('click',function(e){e.preventDefault();$(this).scrolld();});
+	</script>
+</body>
+</html>
